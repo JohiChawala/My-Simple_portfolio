@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+h2{
+    color: #FFA500;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+
+/* home Section Styles */
+.home h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFA500;
+}
+
+.home-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.home-image {
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+}
+
+
+/* About Us Section Styles */
+.about h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFA500;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Project Section Styles */
+.Project h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 2px solid #FFA500;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+/* Contact Section Styles */
+.contact h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}

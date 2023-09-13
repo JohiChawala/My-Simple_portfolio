@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Protfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/j-image.jpg" alt="Art Gallery Logo" class="rounded-1 " width="80" height="80"><span class="mx-3 ">Johi</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item bar">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+     <!-- home -->
+    <div class="container home" id="Home">
+        <div class="row my-5">
+            <div class="col-lg-8 my-5">
+                <p class="home-text">
+                    Hello I’M A
+                </p>
+                <h1 class="home-text">
+                    WEB Developer & Designer
+                </h1>
+                <p class="home-text">
+                    Hello, I’M Johi Chawala a proffesional UI & UX <br>
+                    Designer having experties in figma
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img src="images/johichawala.jpeg" alt="Gallery Interior" class="img-fluid about-image" width="300" height="300">
+            </div>
+        </div>
+    </div> 
+
+    <!-- About Us Section -->
+    <div class="container about" id="About">
+        <h2 class="text-right">About me</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="about-text">
+                    Hello! I'm Johi Chawala, a passionate web developer 
+                    and an undergraduate student at Sukkur IBA University. My journey
+                     in the world of technology began with a fascination for coding
+                    ,and I've since dedicated myself to learning and growing in this dynamic field.
+                </p>
+            </div>
+        </div>
+        <br>
+        <h2 class="text-right">My Skills</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="about-text">
+                    I specialize in Java,with a strong foundation in database
+                    management and data structures. Currently, I'm channeling 
+                    my skills and knowledge into the exciting realm of web development.
+                    I thrive on building innovative and user-friendly websites that leave a lasting impact.
+                </p>
+            </div>
+        </div>
+        <br>
+        <h2 class="text-right">Education</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="about-text">
+                    I'm currently pursuing my undergraduate degree at Sukkur IBA University,
+                    where I'm actively engaged in expanding my knowledge and staying up-to-date
+                    with the latest developments in the tech world.
+                </p>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Project Section -->
+    <div class="container Project" id="Project">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/java.png" alt="project-1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz App</h5>
+                        <p class="card-text">quiz, a contest in which participants test what they know by answering questions on one or more topics.Quizzes help students</p>
+                        <p class="card-text"><small class="text-muted">Date: January 2022 - March 1, 2022</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/database.png" alt="project-2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">libaray Database system</h5>
+                        <p class="card-text">The library management system allows a library to keep track of all its books, and also manage its members.</p>
+                        <p class="card-text"><small class="text-muted">Date: March 2022 - April 6, 2023</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/c.jpg" alt="project-3" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Citizen management system</h5>
+                        <p class="card-text">A good citizen must live in peace and harmony with his neighbours and fellow citizens. </p>
+                        <p class="card-text"><small class="text-muted">Date: june 2023 - july 1, 2023</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="container contact" id="Contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6 text-center">
+                <p>Contact information:</p>
+                <address>
+                    My Address<br>
+                    Ghotki, Sukkur, Sindh<br>
+                    Phone: (92) 307-2411290<br>
+                    Email: juhic834@gmail.com
+                </address>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
